@@ -4,25 +4,25 @@
     "slug": "myporfolio-y37rq342q-fy9x7asigxa",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "@/assets/svg.png",
+    "icon": "./assets/svg.png",
     "scheme": "abdikarimporfolio",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "@/assets/svg.png"
+      "icon": "./assets/svg.png"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "@/assets/svg.png",
-        "backgroundImage": "@/assets/svg.png",
-        "monochromeImage": "@/assets/svg.png"
+        "foregroundImage": "./assets/svg.png",
+        "backgroundImage": "./assets/svg.png",
+        "monochromeImage": "./assets/svg.png"
       },
       "predictiveBackGestureEnabled": false,
       "package": "com.abdikarimdev.portfolio"
     },
     "web": {
       "output": "static",
-      "favicon": "@/assets/svg.png"
+      "favicon": "./assets/svg.png"
     },
     "plugins": [
       "expo-router",
