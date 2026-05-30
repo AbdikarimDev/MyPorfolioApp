@@ -31,7 +31,7 @@
   "@expo-google-fonts/ibm-plex-mono": "^0.2.3",
   "@expo-google-fonts/syne": "^0.2.3",
   "@emailjs/browser": "^4.3.3"
-}
+},
   "devDependencies": {
     "@babel/core": "^7.24.0",
     "@types/react": "~18.2.79",
