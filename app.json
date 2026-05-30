@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "abdikarimPorfolio",
-    "slug": "abdikarimPorfolio",
+    "slug": "myporfolio-y37rq342q-fy9x7asigxa",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "@/assets/svg.png",
@@ -17,7 +17,8 @@
         "backgroundImage": "@/assets/svg.png",
         "monochromeImage": "@/assets/svg.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.abdikarimdev.portfolio"
     },
     "web": {
       "output": "static",
@@ -39,6 +40,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "01e5ab60-71d4-4601-841a-dd8f46094e5e"
+      }
+    },
+    "owner": "abdikarimdev"
   }
 }
