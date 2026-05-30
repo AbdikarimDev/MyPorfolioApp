@@ -4,24 +4,24 @@
     "slug": "abdikarimPorfolio",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "@/assets/svg.png",
     "scheme": "abdikarimporfolio",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "@/assets/svg.png"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "@/assets/svg.png",
+        "backgroundImage": "@/assets/svg.png",
+        "monochromeImage": "@/assets/svg.png"
       },
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "@/assets/svg.png"
     },
     "plugins": [
       "expo-router",
@@ -30,7 +30,7 @@
         {
           "backgroundColor": "#208AEF",
           "android": {
-            "image": "./assets/images/splash-icon.png",
+            "image": "@/assets/svg.png",
             "imageWidth": 76
           }
         }
