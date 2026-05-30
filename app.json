@@ -1,45 +1,41 @@
 {
   "expo": {
-    "name": "abdikarimPorfolio",
+    "name": "Abdikarim Portfolio",
     "slug": "myporfolio-y37rq342q-fy9x7asigxa",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/svg.png",
+    "icon": "./assets/Me.png",
     "scheme": "abdikarimporfolio",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "dark",
     "ios": {
-      "icon": "./assets/svg.png"
+      "icon": "./assets/Me.png"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/svg.png",
-        "backgroundImage": "./assets/svg.png",
-        "monochromeImage": "./assets/svg.png"
+        "foregroundImage": "./assets/Me.png",
+        "backgroundColor": "#02020a"
       },
-      "predictiveBackGestureEnabled": false,
       "package": "com.abdikarimdev.portfolio"
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/svg.png"
+      "favicon": "./assets/Me.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#02020a",
           "android": {
-            "image": "./assets/svg.png",
+            "image": "./assets/Me.png",
             "imageWidth": 76
           }
         }
       ]
     ],
     "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
+      "typedRoutes": true
     },
     "extra": {
       "router": {},
